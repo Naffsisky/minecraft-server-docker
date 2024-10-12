@@ -8,6 +8,8 @@ services:
       EULA: "TRUE"
       GAMEMODE: survival
       DIFFICULTY: normal
+      INIT_MEMORY: 1G
+      MAX_MEMORY: 2G
     ports:
       - "19132:19132/udp"
     volumes:
